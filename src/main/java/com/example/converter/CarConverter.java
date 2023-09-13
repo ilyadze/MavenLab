@@ -38,7 +38,7 @@ public class CarConverter {
                     Element eElement = (Element) nNode;
 
                     CarDTO carDTO = CarFactory.createCar(eElement.getElementsByTagName("engine_power").item(0).getTextContent(),
-                            eElement.getElementsByTagName("body_type").item(0).getTextContent(),
+                             eElement.getElementsByTagName("body_type").item(0).getTextContent(),
                             eElement.getElementsByTagName("color").item(0).getTextContent(),
                             eElement.getElementsByTagName("manufacture").item(0).getTextContent(),
                             eElement.getElementsByTagName("model").item(0).getTextContent(),
