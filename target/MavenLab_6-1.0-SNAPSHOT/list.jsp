@@ -12,7 +12,7 @@
 
             if (names != null && !names.isEmpty()) {
                 for (Car s : names) {
-                    out.println("<li>" + "Car" + "Manufacture: " + s.getManufacture()
+                    out.println("<li>" + "Car - " + "Manufacture: " + s.getManufacture()
                             + ", model: " + s.getModel()
                             + ", color: " + s.getColor()
                             + ", body type: " + s.getBodyType()
